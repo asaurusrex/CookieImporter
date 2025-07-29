@@ -1,0 +1,17 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "Import Cookies"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Import cookies from JSON into the browser. Simply click on the extension and paste your json formatted cookies for import.",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoDavXERPPPunSHT1MSWl3K02M/nHtir71iwyzq6jsDnC7pCrwSndD5rh9N7Hk1KQXDGmUCg1Ww2oiu23b550mmKeNEnqzkWNAT6CY5C3YBslRGOJaqJmunX8XXMvRgRtmJOd+NQG3D/5aXlHMD0EpabGbP3RqG2T8eb4qbIrfPvfYiem0nI/ooPzShAPVRTDIB7QRPtJIDbRuumk3vxH2X8vD6z+GUNOmQB6eqBmw6IkjnqXj+GLZDHkf4XVKW3JOFex7ps/wtSRyGpSH4P9hnm3CSQnFvZp1HWPotT1k6EtBBmfikLkMXEz8vd4hwfNghYK6/+bwcCYNwVfbfvh8wIDAQAB",
+   "manifest_version": 3,
+   "name": "Cookie Importer",
+   "permissions": [ "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
